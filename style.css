@@ -6,3 +6,51 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+:root {
+	font-family: "Roboto", sans-serif;
+	--user-card-image: 140px;
+}
+
+.box	{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #B9DEE6;
+	width: 100vw;
+	height: 100vh;
+}
+
+.userCard {
+	width: 330px;
+	height: 500px;
+	border-radius: 5px;
+	background-color: #FEFEFE;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+
+.imageWrapper {
+	display: block;
+	width: var(--user-card-image);
+	height: var(--user-card-image);
+	border-radius: 50%;
+	overflow: hidden;
+	margin: auto;
+}
+
+.imageWrapper > img {
+	width: inherit;
+	height: inherit;
+	object-fit: cover;
+}
+
+.social {
+	list-style: none;
+}
