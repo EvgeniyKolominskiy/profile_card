@@ -35,10 +35,12 @@
 	text-align: center;
 }
 
-
 .imageWrapper {
-	display: block;
 	position: relative;
+}
+
+.imageWrapperInner {
+	display: block;
 	width: var(--user-card-image);
 	height: var(--user-card-image);
 	border-radius: 50%;
@@ -47,13 +49,13 @@
 	margin: auto;
 }
 
-.imageWrapper img:first-child {
+.imageWrapperInner img {
 	width: inherit;
 	height: inherit;
 	object-fit: cover;
 }
 
-.imageWrapper img:last-child {
+.country {
 	position: absolute;
 	left: 80px;
 	bottom: 0;
@@ -61,6 +63,12 @@
 	height: 30px;
 	border-radius: 50%;
 	border: 5px solid #fff;
+	overflow: hidden
+}
+
+.country img {
+	width: inherit;
+	height: inherit;
 	object-fit: cover;
 }
 
