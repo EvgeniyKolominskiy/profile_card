@@ -33,10 +33,12 @@
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	margin-top: 32px;
 }
 
 .imageWrapper {
 	position: relative;
+	margin-bottom: 30px;
 }
 
 .imageWrapperInner {
@@ -57,20 +59,44 @@
 
 .country {
 	position: absolute;
-	left: 80px;
-	bottom: 0;
+	text-align: center;
+	left: 100px;
+	top: 100px;
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
-	border: 5px solid #fff;
-	overflow: hidden
+	border: 4px solid #fff;
+	overflow: hidden;
 }
 
 .country img {
-	width: inherit;
-	height: inherit;
+	width: 25px;
+	height: 25px;
 	object-fit: cover;
 }
+
+.userName {
+	font-family: "Roboto", sans-serif;
+	font-size: 25px;
+	color: #FE5736;
+	margin-bottom: 17px;
+}
+
+.userInfo {
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	color: black;
+	margin-bottom: 50px;
+}
+
+.userAboutSelf {
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	color: #222222;
+	line-height: 1.5;
+	margin: 0 30px;
+}
+
 
 
 
