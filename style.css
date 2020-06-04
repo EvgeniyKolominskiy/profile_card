@@ -9,6 +9,7 @@
 
 :root {
 	font-family: "Roboto", sans-serif;
+	--user-card-image: 140px;
 }
 
 .box	{
