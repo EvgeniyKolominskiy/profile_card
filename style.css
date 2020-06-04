@@ -56,9 +56,10 @@
 }
 
 .imageWrapperInner img {
-	width: inherit;
-	height: inherit;
+	width: 100%;
+	height: 100%;
 	object-fit: cover;
+	object-position: center;
 }
 
 .country {
@@ -74,9 +75,10 @@
 }
 
 .country img {
-	width: 25px;
-	height: 25px;
+	width: 100%;
+	height: 100%;
 	object-fit: cover;
+	object-position: center;
 }
 
 .userName {
